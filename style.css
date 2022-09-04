@@ -202,7 +202,6 @@ a {
     align-items: center;
     background-color: rgb(77, 7, 23);
     padding: 20px;
-    box-shadow: #000 0 0 20px;
     height: 150px;
 }
 
@@ -238,7 +237,16 @@ a {
     margin: 5px;
 }
 
-
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 52);
+    padding: 20px;
+    height: 20px;
+    color: white;
+    text-shadow: #fff 0 0 20px;
+}
 
 
 
