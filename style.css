@@ -57,7 +57,7 @@
 }
 
 body {
-    background-image: url(yumeko1.jpg);
+    background-image: url(/yumeko1.jpg);
     background-size: 1500px 690px;
     background-repeat: repeat-x;
     font-family: "HussarNiebieski-1rm4", sans-serif;
@@ -171,7 +171,7 @@ a {
 .quote {
     display: flex;
     height: 550px;
-    background-image: url(sumeragi.jpeg);
+    background-image: url(/sumeragi.jpeg);
     background-size: 1500px 690px;
     justify-content: center;
     align-items: center;
