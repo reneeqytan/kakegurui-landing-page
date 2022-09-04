@@ -1,0 +1,298 @@
+.nav {
+    background: #000;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+    height: 65px;
+}
+
+.logo, .links, .button {
+    display: flex;
+    align-items: center;
+}
+
+.logo:hover {
+    text-shadow: 0 0 40px rgb(255, 0, 212);
+}
+
+.button {
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3em;
+    border: 3px solid;
+    border-radius: 1em;
+    position: relative;
+    background-color: rgb(229, 80, 130);
+    display: flex;
+    padding: 5px;
+    margin: 8px;
+}
+
+.button:hover {
+    background-color: rgb(231, 120, 157);
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 0 16px;
+}
+
+.links {
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 50px;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links:hover {
+    text-shadow: 0 0 20px rgb(255, 0, 234);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+body {
+    background-image: url(/project/yumeko1.jpg);
+    background-size: 1500px 690px;
+    background-repeat: repeat-x;
+    font-family: "HussarNiebieski-1rm4", sans-serif;
+}
+
+@font-face {
+    font-family: "HussarNiebieski-1rm4";
+    src: url("/project/fonts/HussarNiebieski-1rm4.ttf");
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    padding: 20px;
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 400px;
+    justify-content: space-between;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.text {
+    color: white;
+    text-shadow:rgb(253, 253, 253) 0 0 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+.image {
+    height: 400px;
+    width: 600px;
+}
+
+
+
+.heading {
+    color: white;
+    text-shadow:rgb(253, 253, 253) 0 0 20px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+
+.char-container {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    background-color: rgb(77, 7, 23);
+}
+
+.character-image {
+    height: 200px;
+    width: 225px;
+    border: #fff solid 5px;
+    border-radius: 10px;
+    box-shadow: #000 0 0 20px;
+}
+
+.title {
+    color: white;
+    text-shadow:rgb(253, 253, 253) 0 0 20px;
+    padding-left: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 100px;
+    background-color:rgb(77, 7, 23);
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.cap-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    background-color: rgb(77, 7, 23);
+}
+
+.caption {
+    color: white;
+    text-shadow:rgb(253, 253, 253) 0 0 20px;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 30px;
+    background-color:rgb(77, 7, 23);
+}
+
+.quote {
+    display: flex;
+    height: 550px;
+    background-image: url(/project/sumeragi.jpeg);
+    background-size: 1500px 690px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: #000 0 0 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+    background-repeat: no-repeat;
+}
+
+
+.quote-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 50px;
+    text-shadow: #fff 0 0 20px;
+    box-shadow: #000 0 0 20px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 7, 23);
+    padding: 20px;
+    box-shadow: #000 0 0 20px;
+    height: 150px;
+}
+
+.con-container {
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: xx-large;
+    text-shadow: white 0 0 20px;
+    box-shadow: #000 0 0 20px;
+    font-style: oblique;
+}
+
+.contact-button {
+    border-radius: 70px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3em;
+    border: 3px solid;
+    border-radius: 1em;
+    position: relative;
+    background-color: rgb(229, 80, 130);
+    display: flex;
+    padding: 4px;
+    margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
