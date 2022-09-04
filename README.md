@@ -4,7 +4,5 @@
 
 I'm very proud of this webpage, as I have been putting off doing this for a long time. This is actually my 3rd attempt, since I didn't fully understand the concept of flexbox in the past 2 attempts. I guess that's an important and valuable lesson.
 
-Either way, I'm excited for the next part of my web dev journey. I had a ton of fun designing this web page because I've recently gotten into watching Kakegurui (the anime).
-
 Inspiration for this webpage is credited in the header.
 
